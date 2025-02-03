@@ -82,6 +82,6 @@ public class BeaconRendererMixin {
     
     @Inject(method = "getViewDistance",at = @At("RETURN"),cancellable = true)
     private void viewDistance(CallbackInfoReturnable<Integer> cir){
-        cir.setReturnValue(Integer.MAX_VALUE);
+        cir.setReturnValue(Config.SPEC.isLoaded() ? Config.RENDER_DISTANCE.get() : Config.RENDER_DISTANCE.getDefault());
     }
 }

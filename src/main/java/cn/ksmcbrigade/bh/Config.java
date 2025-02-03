@@ -20,5 +20,7 @@ public class Config {
     public static final ForgeConfigSpec.ConfigValue<Float> BLUE = BUILDER.define("color_blue", (float) Color.WHITE.getBlue());
     public static final ForgeConfigSpec.ConfigValue<Float> ALPHA = BUILDER.comment("Range: 0.0 ~ 1.0").define("color_alpha", 0.85F);
 
-    static final ForgeConfigSpec SPEC = BUILDER.build();
+    public static final ForgeConfigSpec.IntValue RENDER_DISTANCE = BUILDER.defineInRange("render_distance",1024,128,Integer.MAX_VALUE);
+
+    public static final ForgeConfigSpec SPEC = BUILDER.build();
 }
