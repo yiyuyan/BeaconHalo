@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "cn/ksmcbrigade/bh/mixin/BeaconRendererMixin": {
+      "getViewDistance": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_142163_()I",
+      "render(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_6922_(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V",
+      "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;renderBeaconBeam(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;FJII[F)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_112176_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;FJII[F)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "cn/ksmcbrigade/bh/mixin/BeaconRendererMixin": {
+        "getViewDistance": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_142163_()I",
+        "render(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_6922_(Lnet/minecraft/world/level/block/entity/BeaconBlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V",
+        "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;renderBeaconBeam(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;FJII[F)V": "Lnet/minecraft/client/renderer/blockentity/BeaconRenderer;m_112176_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;FJII[F)V"
+      }
+    }
+  }
+}

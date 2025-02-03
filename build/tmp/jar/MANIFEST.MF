@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: bh
+Specification-Vendor: KSmc_brigade
+Specification-Version: 1
+Implementation-Title: beacon-halo
+Implementation-Version: 1.0
+Implementation-Vendor: KSmc_brigade
+Implementation-Timestamp: 2025-02-03T08:47:24+0800
+MixinConfigs: bh.mixins.json
+

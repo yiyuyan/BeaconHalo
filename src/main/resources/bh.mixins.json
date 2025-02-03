@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.bh.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bh.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "BeaconRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
